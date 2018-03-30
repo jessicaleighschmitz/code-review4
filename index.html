@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kitty Pizza Delivery</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Kitty's Pizza</h1>
+      <h2>Order page</h2>
+    </header>
+<div id="container">
+  <p>
+    Fill out the following fields to design your dream pizza!
+  </p>
+  <div id="choices">
+    <form id="form">
+      <div id="size">
+        <h4>Please select the size of your pizza</h4>
+        <select id="pizza-size">
+          <option>
+            Small
+          </option>
+          <option>
+            Medium
+          </option>
+          <option>
+            Large
+          </option>
+        </select>
+      </div>
+      <div id="toppings">
+        <h4>Toppings</h4>
+        <p>
+          Toppings are $0.50 each. Choose no more than 3 toppings for each pie.
+        </p>
+        <div class="toppings">
+          <label for="spinach">Spinach</label>
+          <input id="spinach" value="spinach"name="toppings" type="checkbox" />
+        </div>
+        <div class="toppings">
+          <label for="pepperoni">Pepperoni</label>
+          <input id="pepperoni" value="pepperoni" name="toppings" type="checkbox" />
+        </div>
+        <div class="toppings">
+          <label for="mushroom">Mushroom</label>
+          <input id="mushroom" value="mushroom" name="toppings" type="checkbox" />
+        </div>
+        <div class="toppings">
+          <label for="olives">Olives</label>
+          <input id="olives" value="olives" name="toppings" type="checkbox" />
+        </div>
+        <div class="toppings">
+          <label for="truffle">Truffle Oil</label>
+          <input id="truffle" value="truffle-oil" name="toppings" type="checkbox" />
+        </div>
+        <div class="toppings">
+          <label for="onion">Onion</label>
+          <input id="onion" value="onion" name="toppings" type="checkbox" />
+        </div>
+        <div class="toppings">
+          <label for="arugula">Arugula</label>
+          <input id="arugula" value="arugula" name="toppings" type="checkbox" />
+        </div>
+        <div class="toppings">
+          <label for="cheese">Extra-cheese</label>
+          <input id="cheese" value="xtra-cheese" name="toppings" type="checkbox" />
+        </div>
+      </div>
+      <div class="submit">
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="pizza-order">
+    <h2>Please review your pizza order:</h2>
+    <p>
+      <span class="order"></span>
+    </p>
+    <button id="final-order">Submit final order</button>
+  </div>
+</div>
+  </body>
+</html>
