@@ -13,9 +13,15 @@ Pizza.prototype.sizePrice = function(size, toppingsArray) {
   } else if (size === "Large") {
     total += 10;
   }
-  for (var i = 0; i < toppingsArray.length; i++) {
-    total += 1;
+
+  if (toppingsArray.length < 1){
+    total += 0;
     this.price = total;
+  } else {
+    for (var i = 0; i < toppingsArray.length; i++) {
+      total += 1;
+      this.price = total;
+  }
 }
 }
 Pizza.prototype.cost = function (size, toppings, price) {
