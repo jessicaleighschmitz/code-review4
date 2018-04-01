@@ -6,7 +6,7 @@
 
 ## Description
 
-_This website allows users to order a custom pizza online. The user may select size and toppings and will have their order displayed for them to confirm_
+_This website allows users to order a custom pizza online. The user may select size and toppings. Tghe price of the pizza will adjust accordingly. Users will have their order displayed for them to confirm_
 
 ## Setup/Installation Requirements
 

@@ -25,7 +25,7 @@ Pizza.prototype.sizePrice = function(size, toppingsArray) {
 }
 }
 Pizza.prototype.cost = function (size, toppings, price) {
-  return "$" + this.price + " " + this.size + " with " + this.toppings + ".";
+  return "$" + this.price + " " + this.size + " pizza, with " + this.toppings + ".";
 }
 
 
