@@ -15,12 +15,11 @@ Pizza.prototype.sizePrice = function(size, toppingsArray) {
   }
   for (var i = 0; i < toppingsArray.length; i++) {
     total += 1;
-    console.log(total);
     this.price = total;
 }
 }
 Pizza.prototype.cost = function (size, toppings, price) {
-  return "$" + this.price + " " + this.size + " with " + this.toppings;
+  return "$" + this.price + " " + this.size + " with " + this.toppings + ".";
 }
 
 

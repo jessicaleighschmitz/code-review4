@@ -1,3 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #pizza-order, #thank-you {
   display: none;
+}
+header {
+  background-color: #000;
+  min-height: 200px;
+}
+h1 {
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em #E4384F, 0 0 0.2em #F1743D;
+  padding-top: 20px;
+}
+header p {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em #E4384F, 0 0 0.2em #F1743D;
+}
+#container {
+  background-image: URL('https://images.unsplash.com/photo-1475518112798-86ae358241eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f51bab3843846797026c5f5ef601f786&auto=format&fit=crop&w=1650&q=80');
+  background-size: cover;
+}
+h2 {
+  font-size: 60px;
+  color: #E4384F;
+  text-shadow: 1px 1px 2px #000;
+  padding: 20px 10px;
+  text-align: center;
+}
+#thank-you {
+  background-image: URL('https://images.unsplash.com/photo-1475518112798-86ae358241eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f51bab3843846797026c5f5ef601f786&auto=format&fit=crop&w=1650&q=80');
+
+}
+#thanks {
+  padding: 300px;
+  font-size: 40px;
+  color: #E4384F;
+  text-shadow: 1px 1px 2px #000;
+  text-align: center;
 }
